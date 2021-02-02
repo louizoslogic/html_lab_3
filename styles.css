@@ -1,0 +1,56 @@
+@media all and (min-width: 200px) {
+    
+
+    .right {
+        display: inline;
+        position: absolute;
+        right: 0px;
+        font-size: 20px;
+    }
+
+    html {
+        background-image: url("download.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    body {margin:0}
+    
+    header {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        color:steelblue;
+        margin:0;
+        text-align: center;
+    }
+    
+    nav {
+        text-align: center;
+        margin:0px;
+        grid-column-start:1 ;
+        grid-column-end: 4;
+        list-style-type: none;
+        color:whitesmoke;
+    }
+    
+    nav li {display:inline;}
+    
+    h2 {
+        color:white;
+        margin:0;
+        display:block;
+    }
+
+    h3 {
+        color:white;  
+    }
+
+    h4 {
+        color:white;
+        margin:0;
+        display:block;
+    }
+
+
+}
